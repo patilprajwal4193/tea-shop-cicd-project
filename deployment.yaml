@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: tea-shop-deployment
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: tea-shop
+
+  template:
+    metadata:
+      labels:
+        app: tea-shop
+
+    spec:
+      containers:
+      - name: tea-shop-container
+        image: patilprajwal09/tea-shop-cicd-project:v1
+
+        ports:
+        - containerPort: 80
