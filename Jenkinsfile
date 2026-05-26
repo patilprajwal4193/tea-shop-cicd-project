@@ -9,6 +9,7 @@ pipeline {
 
         stage('Clone') {
             steps {
+                 git branch: 'main',
                 git 'https://github.com/patilprajwal4193/tea-shop-cicd-project.git'
             }
         }
