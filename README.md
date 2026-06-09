@@ -12,8 +12,7 @@ The pipeline integrates GitHub, Jenkins, Docker Hub, Kubernetes, and Amazon EKS 
 
 👨‍💻 Code Commit → 📂 GitHub → 🚀 CI/CD Pipeline (Jenkins) → 🐳 Docker Image → 📦 Docker Hub → ☸️ AWS EKS → 🌐 Live Application
 
-🛠️ Tech Stack
-
+🛠️ Tech Stack-
 ☁️ AWS EKS
 🚀 Jenkins
 🐳 Docker
@@ -78,7 +77,6 @@ The pipeline integrates GitHub, Jenkins, Docker Hub, Kubernetes, and Amazon EKS 
 ✅ Linux Operations
 
 🔮 Future Improvements
-
 🚀 Deploy a full-stack application using the existing CI/CD pipeline
 🏗️ Implement a three-tier architecture on AWS EKS
 📊 Add automated testing and monitoring
