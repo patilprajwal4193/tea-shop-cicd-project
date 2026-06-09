@@ -1,27 +1,30 @@
-🚀☁️ CI/CD Pipeline Deployment on AWS EKS
+# 🚀☁️ CI/CD Pipeline Deployment on AWS EKS
 
-> 🔄 Automated deployment of a containerized web application using Jenkins, Docker, Docker Hub, Kubernetes, and Amazon EKS.
+> 🔄 Automated deployment of a containerized web application using 🚀 Jenkins, 🐳 Docker, 📦 Docker Hub, ☸️ Kubernetes, and ☁️ Amazon EKS.
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project demonstrates an end-to-end CI/CD pipeline that automates the deployment of a containerized web application on AWS EKS.
 
 The pipeline integrates GitHub, Jenkins, Docker Hub, Kubernetes, and Amazon EKS to automate application delivery from code commit to deployment.
 
-🏗️ Architecture
+## 🏗️ Architecture
 
+```text
 👨‍💻 Code Commit → 📂 GitHub → 🚀 CI/CD Pipeline (Jenkins) → 🐳 Docker Image → 📦 Docker Hub → ☸️ AWS EKS → 🌐 Live Application
+```
 
-🛠️ Tech Stack-
-☁️ AWS EKS
-🚀 Jenkins
-🐳 Docker
-📦 Docker Hub
-☸️ Kubernetes
-🔧 Git & GitHub
-🐧 Linux
+## 🛠️ Tech Stack
 
-🔄 CI/CD Workflow
+* ☁️ AWS EKS
+* 🚀 Jenkins
+* 🐳 Docker
+* 📦 Docker Hub
+* ☸️ Kubernetes
+* 🔧 Git & GitHub
+* 🐧 Linux
+
+## 🔄 CI/CD Workflow
 
 1️⃣ Developer pushes code to GitHub.
 
@@ -35,30 +38,41 @@ The pipeline integrates GitHub, Jenkins, Docker Hub, Kubernetes, and Amazon EKS 
 
 6️⃣ Application is deployed successfully.
 
+## 📂 Project Structure
 
-📸 Project Screenshots
+```text
+.
+├── Dockerfile
+├── Jenkinsfile
+├── deployment.yaml
+├── service.yaml
+├── screenshots/
+└── README.md
+```
 
-🚀 Jenkins Pipeline
+## 📸 Project Screenshots
+
+### 🚀 Jenkins Pipeline
 
 ![Jenkins Pipeline](screenshots/jenkins-pipeline.png)
 
-📦 Docker Hub Repository
+### 📦 Docker Hub Repository
 
 ![Docker Hub Repository](screenshots/dockerhub-repository.png)
 
-☁️ Amazon EKS Cluster
+### ☁️ Amazon EKS Cluster
 
 ![EKS Cluster](screenshots/eks-cluster.png)
 
-☸️ Kubernetes Pods
+### ☸️ Kubernetes Pods
 
 ![Pods](screenshots/pods-running.png)
 
-🌐 Running Application
+### 🌐 Running Application
 
 ![Application](screenshots/application-running.png)
 
-🚀 Skills Demonstrated
+## 🚀 Skills Demonstrated
 
 ✅ CI/CD Pipeline Implementation
 
@@ -76,13 +90,14 @@ The pipeline integrates GitHub, Jenkins, Docker Hub, Kubernetes, and Amazon EKS 
 
 ✅ Linux Operations
 
-🔮 Future Improvements
-🚀 Deploy a full-stack application using the existing CI/CD pipeline
-🏗️ Implement a three-tier architecture on AWS EKS
-📊 Add automated testing and monitoring
+## 🔮 Future Improvements
 
-👨‍💻 Author
+* 🚀 Deploy a full-stack application using the existing CI/CD pipeline
+* 🏗️ Implement a three-tier architecture on AWS EKS
+* 📊 Add automated testing and monitoring
 
-Prajwal Patil
+## 👨‍💻 Author
+
+**Prajwal Patil**
 
 ☁️ Aspiring Cloud & DevOps Engineer
