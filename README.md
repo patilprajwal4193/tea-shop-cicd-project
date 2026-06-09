@@ -36,15 +36,6 @@ The pipeline integrates GitHub, Jenkins, Docker Hub, Kubernetes, and Amazon EKS 
 
 6️⃣ Application is deployed successfully.
 
-📂 Project Structure
-
-.
-├── Dockerfile
-├── Jenkinsfile
-├── deployment.yaml
-├── service.yaml
-├── screenshots/
-└── README.md
 
 📸 Project Screenshots
 
